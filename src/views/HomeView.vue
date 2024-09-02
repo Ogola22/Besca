@@ -616,30 +616,31 @@
                </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-               <p class="fs-md mb-5 pe-xxl-5 mt-n1">Besca Engineering has extensive experience in both solar installations and electrical works, 
+               <p class="fs-md mb-5 pe-xxl-5 mt-n1">Besca Engineering has extensive experience in both solar
+                  installations and electrical works,
                   with a portfolio of successfully completed projects across various scales.</p>
                <div class="vs-media about-media ">
                   <div class="media-icon"><img src="../assets/img/icon/why-choose-1.png" alt="feature icon"></div>
                   <div class="media-body">
                      <span class="media-title h5">Award winning team</span>
-                     <p class="media-info">Ut tellus dolor, dapibus eget, elementum vel, ifend cursus eleifend, elit.
-                     </p>
+                     <p class="media-info">Our team comprises certified engineers and technicians who are well-versed in
+                        the latest industry standards and technologies.</p>
                   </div>
                </div>
                <div class="vs-media about-media ">
                   <div class="media-icon"><img src="../assets/img/icon/why-choose-2.png" alt="feature icon"></div>
                   <div class="media-body">
-                     <span class="media-title h5">Money Back Guarantee</span>
-                     <p class="media-info">Ut tellus dolor, dapibus eget, elementum vel, ifend cursus eleifend, elit.
-                     </p>
+                     <span class="media-title h5">Competitive Pricing</span>
+                     <p class="media-info">We offer competitive pricing without compromising on quality, with clear and
+                        detailed quotes that avoid hidden costs.</p>
                   </div>
                </div>
                <div class="vs-media about-media ">
                   <div class="media-icon"><img src="../assets/img/icon/why-choose-3.png" alt="feature icon"></div>
                   <div class="media-body">
-                     <span class="media-title h5">Easy Installation</span>
-                     <p class="media-info">Ut tellus dolor, dapibus eget, elementum vel, ifend cursus eleifend, elit.
-                     </p>
+                     <span class="media-title h5">Customer Satisfaction</span>
+                     <p class="media-info">Besca Engineering is known for excellent customer service, with responsive
+                        support teams available to address any concerns before, during, and after installation.</p>
                   </div>
                </div>
             </div>
