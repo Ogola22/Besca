@@ -190,6 +190,7 @@
   if ($('[data-bg-src]').length > 0) {
     $('[data-bg-src]').each(function () {
       var src = $(this).attr('data-bg-src');
+      console.log('Background image source:', src); 
       $(this).css('background-image', 'url(' + src + ')');
       $(this).removeAttr('data-bg-src').addClass('background-image');
     });
@@ -726,7 +727,7 @@
     scrollContainer: null, // optional scroll container selector, otherwise use window,
     resetAnimation: false, // reset animation on end (default is true)
   });
-  wow.init();
+  new wow.init();
 
   $('.banner-slider-v4').slick({
     autoplay: false,
@@ -969,4 +970,5 @@
 
 
 
-})(jQuery);
+})(jQuery); 
+

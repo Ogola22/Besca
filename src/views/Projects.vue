@@ -2,7 +2,8 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="../assets/img/breadcumb/breadcumb-bg.jpg">
+
+    <div class="breadcumb-wrapper " data-bg-src="../assets/img/hero/Slide-1.svg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Our Projects One</h1>

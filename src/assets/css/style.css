@@ -4627,7 +4627,7 @@ a.header-top-text:hover {
   padding-top: 150px;
   padding-bottom: 150px;
   background-color: var(--title-color);
-  background-image: url('../img/breadcumb/Breadcramp1.svg');
+  /* background-image: url('../img/breadcumb/Breadcramp1.svg'); */
   /* Medium devices */
 }
 @media (max-width: 991px) {

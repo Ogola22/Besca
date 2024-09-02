@@ -611,7 +611,7 @@
                </div>
                <div class="pt-3"></div>
                <div class="img-box2">
-                  <div class="img-1"><img src="../assets/img/about/Why-Choose-Us.svg" alt="thumb"></div>
+                  <div class="img-1"><img src="../assets/img/about/Why-Choose-Us.svg" alt=""></div>
                   <div class="shape-dotted jump"></div>
                </div>
             </div>
