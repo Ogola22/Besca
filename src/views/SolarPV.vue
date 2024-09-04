@@ -26,7 +26,7 @@
             <div class="row justify-content-between flex-row-reverse gx-60">
                 <div class="col-xl-7 col-xxl-auto wow fadeInUp" data-wow-delay="0.3s">
                     <div class="img-box9">
-                        <div class="img-1"><img src="../assets/img/abouT/Homesolar.svg" alt="thumbnail"></div>
+                        <div class="img-1"><img src="../assets/img/about/Homesolar.svg" alt="thumbnail"></div>
                         <div class="img-2"><img src="../assets/img/about/SolarBackup.svg" alt="thumbnail"></div>
                         <div class="img-shape1"></div>
                         <div class="shape-dotted jump"></div>
