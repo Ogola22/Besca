@@ -2,7 +2,7 @@
    <!--==============================
       Hero Area
     ==============================-->
-   <section class="  ">
+   <section class="">
       <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive">
          <!-- Slide 1-->
          <div class="ls-slide" data-ls="duration:12000;">
@@ -344,8 +344,8 @@
          <div class="row flex-row-reverse">
             <div class="col-xl-7 mb-40 mb-xl-0 wow fadeInUp" data-wow-delay="0.4s">
                <div class="img-box6">
-                  <div class="img-1"><img src="../assets/img/about/Batteries .svg" alt="about"></div>
-                  <div class="img-2"><img src="../assets/img/about/Solar.svg" alt="about"></div>
+                  <div class="img-1"><img src="../assets/img/about/Homeabout.jpg" alt="about"></div>
+                  <div class="img-2"><img src="../assets/img/about/Homeabout1.jpg" alt="about"></div>
                   <div class="img-shape1"></div>
                   <div class="shape-dotted jump"></div>
                </div>
