@@ -6,7 +6,7 @@
       <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive">
          <!-- Slide 1-->
          <div class="ls-slide" data-ls="duration:12000;">
-            <img src="../assets/img/hero/slide1.svg" class="ls-bg" alt="hero-bg">
+            <img src="../assets/img/hero/slide1.jpg" class="ls-bg" alt="hero-bg">
             <div
                style="text-align:left; font-style:normal; text-decoration:none; text-transform:none; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; color:#ffffff; left:315px; top:710px; line-height:0px; z-index:200;"
                class="ls-l ls-hide-tablet ls-hide-phone ls-html-layer" data-ls="static:forever;">
@@ -103,6 +103,7 @@
             </h1>
 
          </div>
+
          <!-- Slide 2-->
          <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
             <img width="1920" height="890" src="../assets/img/hero/Slide-1.svg" class="ls-bg" alt="hero bg">
@@ -656,7 +657,7 @@
             <div class="col-xl-6">
                <div class="title-area">
                   <span class="sec-subtitle">OUR CASE STUDIES</span>
-                  <h2 class="sec-title h1">Over 14,000 Successful Installations</h2>
+                  <h2 class="sec-title h1">Over 100 Successful Installations in Public Schools</h2>
                </div>
             </div>
             <div class="col-auto align-self-center">
@@ -669,13 +670,12 @@
             data-arrows="true">
             <div class="col-auto">
                <div class="project-style1 layout2">
-                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/proj-1-1.jpg"
+                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/PataniSchool.jpg"
                            alt="project image"></a></div>
                   <div class="project-content">
-                     <span class="project-category">SOLAR ENERGY</span>
-                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Streamer fish
-                           California halibut Pacific</a></h3>
-                     <span class="project-energytotal h4">235,099 <span class="quantity">kWh</span></span>
+                     <span class="project-category">SOLAR PV INSTALLATION</span>
+                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Patani Primary School- Taita Taveta County in Kenya</a></h3>
+                     <span class="project-energytotal h4">2,000<span class="quantity">kWh</span></span>
                      <p class="project-energytext">of clean energy per year</p>
                      <div class="shape-dotted"></div>
                   </div>

@@ -2,13 +2,8 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-img-src="../assets/img/breadcumb/breadcumb-bg.jpg">
-        <div class="container z-index-common">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">About Us</h1>
-        </div>
-    </div>
-    </div>
+<div class="project-img"><a href="project-details.html"><img src="../assets/img/breadcumb/About.jpg" 
+    alt="project image"></a></div>
     <div class="breadcumb-menu-wrap">
         <div class="container">
             <ul class="breadcumb-menu">
