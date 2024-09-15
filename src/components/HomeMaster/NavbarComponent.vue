@@ -14,8 +14,7 @@
                         <router-link to="/">Home</router-link>
                     </li>
                     <li><router-link to="/about">About Us</router-link></li>
-                    <li class="menu-item-has-children">
-                        <a href="blog.html">Blog</a>
+                    <li><router-link to="/service" class="menu-item-has-children">Blog</router-link>
                         <ul class="sub-menu">
                             <li><a href="blog.html">Blog List</a></li>
                             <li><a href="blog-grid.html">Blog Grid</a></li>
@@ -160,7 +159,7 @@
                                             <router-link to="/">Solar Water Heating Systems</router-link>
                                             <router-link to="/">Solar Water Pumping Systems</router-link>
                                             <router-link to="/">Solar Street Lighting</router-link>
-                                            <router-link to="/">Electrical Works</router-link>
+                                            <a href="https://www.bescaengineering.co.ke/">Electrical Works</a>
                                             <router-link to="/">Generator Installation</router-link>
                                         </ul>
                                     </li>

@@ -670,11 +670,12 @@
             data-arrows="true">
             <div class="col-auto">
                <div class="project-style1 layout2">
-                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/PataniSchool.jpg"
-                           alt="project image"></a></div>
+                  <div class="project-img"><a href="project-details.html"><img
+                           src="../assets/img/project/PataniSchool.jpg" alt="project image"></a></div>
                   <div class="project-content">
                      <span class="project-category">SOLAR PV INSTALLATION</span>
-                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Patani Primary School- Taita Taveta County in Kenya</a></h3>
+                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Patani Primary
+                           School- Taita Taveta County in Kenya</a></h3>
                      <span class="project-energytotal h4">2,000<span class="quantity">kWh</span></span>
                      <p class="project-energytext">of clean energy per year</p>
                      <div class="shape-dotted"></div>
@@ -726,6 +727,48 @@
          </div>
       </div>
    </section>
+
+   <!--==============================
+    Brand Area
+  ==============================-->
+   <div class=" space-bottom">
+      <div class="container">
+         <span class="sec-subtitle text-decoration-underline mb-4 pb-lg-3 text-center">Client and sponsor</span>
+         <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.4s" data-slide-show="5" data-lg-slide-show="4"
+            data-md-slide-show="3" data-sm-slide-show="2">
+            <div class="col-xl-4">
+               <div class="brand-style1">
+                  <img src="../assets/img/brand/brand-1-1.png" alt="brand">
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="brand-style1">
+                  <img src="../assets/img/brand/brand-1-2.png" alt="brand">
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="brand-style1">
+                  <img src="../assets/img/brand/brand-1-3.png" alt="brand">
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="brand-style1">
+                  <img src="../assets/img/brand/brand-1-4.png" alt="brand">
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="brand-style1">
+                  <img src="../assets/img/brand/brand-1-5.png" alt="brand">
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="brand-style1">
+                  <img src="../assets/img/brand/brand-1-6.png" alt="brand">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </template>
 
 <script>
