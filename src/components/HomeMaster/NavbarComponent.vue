@@ -11,7 +11,7 @@
             <div class="vs-mobile-menu">
                 <ul>
                     <li class="">
-                        <router-link to="/">Home</router-link>
+                        <router-link to="/" @click="refreshRoute">Home</router-link>
                     </li>
                     <li><router-link to="/about">About Us</router-link></li>
                     <li><router-link to="/service" class="menu-item-has-children">Blog</router-link>
@@ -237,7 +237,12 @@
 </template>
 <script>
 export default {
-
+    methods: {
+    refreshRoute() {
+      // Force the route to reload by using `this.$router.go(0)`
+      this.$router.go(0);
+    }
+  }
 }
 </script>
 
