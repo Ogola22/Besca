@@ -112,7 +112,7 @@
     <!--==============================
     Header Area
     ==============================-->
-    <header class="vs-header header-layout1">
+    <div class="vs-header header-layout1">
         <div class="container">
             <div class="header-top">
                 <div class="row justify-content-between align-items-center">
@@ -147,7 +147,7 @@
                             <nav class="main-menu menu-hover1 menu-style1 d-none d-lg-block">
                                 <ul>
                                     <li>
-                                        <router-link to="/">Home</router-link>
+                                        <router-link to="/" @click="refreshRoute">Home</router-link>
                                     </li>
                                     <li>
                                         <router-link to="/about">About Us</router-link>
@@ -166,51 +166,8 @@
                                     <li>
                                         <router-link to="/projects">Projects</router-link>
                                     </li>
-                                    <li class="mega-menu-wrap">
-                                        <a href="#">Gallery</a>
-                                        <!-- <ul class="mega-menu">
-                                            <li><a href="shop.html">Pagelist 1</a>
-                                                <ul>
-                                                    <li><a href="index.html">Home One</a></li>
-                                                    <li><a href="index-2.html">Home Two</a></li>
-                                                    <li><a href="index-3.html">Home Three</a></li>
-                                                    <li><a href="about.html">About Us</a></li>
-                                                    <li><a href="award.html">Awards</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pagelist 2</a>
-                                                <ul>
-                                                    <li><a href="team.html">Team<span class="new-label">New</span></a>
-                                                    </li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="project.html">Projects One</a></li>
-                                                    <li><a href="project-2.html">Projects Two<span
-                                                                class="new-label">New</span></a></li>
-                                                    <li><a href="project-details.html">Project Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pagelist 3</a>
-                                                <ul>
-                                                    <li><a href="service.html">Service One</a></li>
-                                                    <li><a href="service-2.html">Service Two<span
-                                                                class="new-label">New</span></a></li>
-                                                    <li><a href="service-details.html">Service Details</a></li>
-                                                    <li><a href="price-plan.html">Pricing Plans</a></li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pagelist 4</a>
-                                                <ul>
-                                                    <li><a href="blog.html">Blog List</a></li>
-                                                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                    <li><a href="blog-details.html">Blog Details<span
-                                                                class="new-label">New</span></a></li>
-                                                    <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a>
-                                                    </li>
-                                                    <li><a href="error.html">Error Page</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul> -->
+                                    <li>
+                                        <router-link to="/community">#TransformingLives</router-link>
                                     </li>
                                     <li>
                                         <router-link to="/contact">Contact</router-link>
@@ -233,14 +190,14 @@
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 </template>
 <script>
 export default {
     methods: {
     refreshRoute() {
       // Force the route to reload by using `this.$router.go(0)`
-      this.$router.go(0);
+      this.$router.replace({ path: '/' });
     }
   }
 }
