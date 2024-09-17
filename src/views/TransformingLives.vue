@@ -40,7 +40,7 @@
                         <div class="blog-img">
                             <img src="../assets/img/blog/blog-1-1.jpg" alt="Blog Image" class="w-100">
                         </div>
-                        <h3 class="blog-title"><a href="blog-details.html">British Solar Renewables receives planning</a></h3>
+                        <h3 class="blog-title"><a href="blog-details.html">Solar PV Installation at </a></h3>
                         <div class="blog-content">
                             <a href="blog-details.html" class="link-btn">Read More<i class="far fa-plus"></i></a>
                         </div>
@@ -52,7 +52,7 @@
                         <div class="blog-img">
                             <img src="../assets/img/blog/blog-1-2.jpg" alt="Blog Image" class="w-100">
                         </div>
-                        <h3 class="blog-title"><a href="blog-details.html">Surviving Sustainably On Solar Energy 2022</a></h3>
+                        <h3 class="blog-title"><a href="blog-details.html">Solar PV Installation</a></h3>
                         <div class="blog-content">
                             <a href="blog-details.html" class="link-btn">Read More<i class="far fa-plus"></i></a>
                         </div>
@@ -64,7 +64,7 @@
                         <div class="blog-img">
                             <img src="../assets/img/blog/blog-1-3.jpg" alt="Blog Image" class="w-100">
                         </div>
-                        <h3 class="blog-title"><a href="blog-details.html">Specialists and Planning Authorities to Develop</a></h3>
+                        <h3 class="blog-title"><a href="blog-details.html">Solar PV Installation</a></h3>
                         <div class="blog-content">
                             <a href="blog-details.html" class="link-btn">Read More<i class="far fa-plus"></i></a>
                         </div>
@@ -76,7 +76,7 @@
                         <div class="blog-img">
                             <img src="../assets/img/blog/blog-1-4.jpg" alt="Blog Image" class="w-100">
                         </div>
-                        <h3 class="blog-title"><a href="blog-details.html">Streamer fish California halibut Pacific Ocan</a></h3>
+                        <h3 class="blog-title"><a href="blog-details.html">Solar PV Installation</a></h3>
                         <div class="blog-content">
                             <a href="blog-details.html" class="link-btn">Read More<i class="far fa-plus"></i></a>
                         </div>
@@ -88,7 +88,7 @@
                         <div class="blog-img">
                             <img src="../assets/img/blog/blog-1-5.jpg" alt="Blog Image" class="w-100">
                         </div>
-                        <h3 class="blog-title"><a href="blog-details.html">Addressing Wind Energy Innovation Challenges</a></h3>
+                        <h3 class="blog-title"><a href="blog-details.html">Solar PV Installation</a></h3>
                         <div class="blog-content">
                             <a href="blog-details.html" class="link-btn">Read More<i class="far fa-plus"></i></a>
                         </div>
@@ -100,7 +100,7 @@
                         <div class="blog-img">
                             <img src="../assets/img/blog/blog-1-6.jpg" alt="Blog Image" class="w-100">
                         </div>
-                        <h3 class="blog-title"><a href="blog-details.html">Expanding The Solar & Supply Chain Cash</a></h3>
+                        <h3 class="blog-title"><a href="blog-details.html">Solar PV Installation</a></h3>
                         <div class="blog-content">
                             <a href="blog-details.html" class="link-btn">Read More<i class="far fa-plus"></i></a>
                         </div>

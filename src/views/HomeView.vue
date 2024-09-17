@@ -75,20 +75,20 @@
          <div class="row gx-80 mb-1 pb-3 text-center text-xl-start justify-content-center justify-content-xl-start">
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.3s">
                <div class="counter-style1">
-                  <span class="counter-number h1">500</span>
-                  <p class="counter-text">Served and Happy<br> Clients</p>
+                  <span class="counter-number h1">2500</span>
+                  <p class="counter-text">kW<br>Installed</p>
                </div>
             </div>
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.4s">
                <div class="counter-style1">
-                  <span class="counter-number h1">500</span>
-                  <p class="counter-text">Solar PV Projects<br> Done</p>
+                  <span class="counter-number h1">90+</span>
+                  <p class="counter-text">Tones<br>of Carbon</p>
                </div>
             </div>
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.5s">
                <div class="counter-style1">
                   <span class="counter-number h1">100</span>
-                  <p class="counter-text">Partners <br> Globally</p>
+                  <p class="counter-text">Schools <br> Globally</p>
                </div>
             </div>
          </div>
