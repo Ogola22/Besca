@@ -11,10 +11,10 @@
             <div class="vs-mobile-menu">
                 <ul>
                     <li class="">
-                        <router-link to="/" @click="refreshRoute">Home</router-link>
+                        <router-link to="/">Home</router-link>
                     </li>
                     <li><router-link to="/about">About Us</router-link></li>
-                    <li><router-link to="/service" class="menu-item-has-children">Blog</router-link>
+                    <li><router-link to="/service" class="menu-item-has-children">Services</router-link>
                         <ul class="sub-menu">
                             <li><a href="blog.html">Blog List</a></li>
                             <li><a href="blog-grid.html">Blog Grid</a></li>
