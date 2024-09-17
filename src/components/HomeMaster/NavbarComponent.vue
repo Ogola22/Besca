@@ -194,12 +194,6 @@
 </template>
 <script>
 export default {
-    methods: {
-    refreshRoute() {
-      // Force the route to reload by using `this.$router.go(0)`
-      this.$router.replace({ path: '/' });
-    }
-  }
 }
 </script>
 
