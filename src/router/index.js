@@ -11,30 +11,34 @@ const router = createRouter({
     },
     {
       path: '/about',
-      name: 'about',
-      component: ()=> import('@/views/AboutView.vue')
+      name: 'About',
+      component: () => import('@/views/AboutView.vue')
     },
     {
       path: '/contact',
-      name: 'contact',
-      component: ()=> import('@/views/ContacView.vue')
+      name: 'Contact',
+      component: () => import('@/views/ContacView.vue')
     },
     {
       path: '/solarPV',
-      name: 'solarPV',
-      component: ()=> import('@/views/SolarPV.vue')
+      name: 'SolarPV',
+      component: () => import('@/views/SolarPV.vue')
     },
     {
       path: '/projects',
-      name: 'projects',
-      component: ()=> import('@/views/Projects.vue')
+      name: 'Projects',
+      component: () => import('@/views/Projects.vue')
     },
     {
       path: '/community',
-      name: 'community',
-      component: ()=> import('@/views/TransformingLives.vue')
+      name: 'Community',
+      component: () => import('@/views/TransformingLives.vue')
     },
-  ]
-})
+  ];
+  const: router = createRouter({
+    history: createWebHistory(), // This enables history mode
+    router
+  })
+});
 
 export default router
