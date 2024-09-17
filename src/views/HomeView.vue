@@ -2,9 +2,9 @@
    <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive">
       <!-- Slide 1-->
       <div class="ls-slide" data-ls="duration:12000;">
-         <img src="../assets/img/hero/slide1.jpg" class="" alt="">
-
-         <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer" alt="shape"
+         <img src="../assets/img/hero/slide1.jpg" class="ls-bg" alt="hero-bg">
+         
+          <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer" alt="shape"
             style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
             data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
          <img width="369" height="629" src="../assets/img/hero/bulb.svg" class="ls-l ls-img-layer" alt="hero img"
@@ -14,7 +14,7 @@
 
       <!-- Slide 2-->
       <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
-         <img width="1920" height="890" src="../assets/img/hero/Slide-1.svg" class="" alt="">
+         <img width="1920" height="890" src="../assets/img/hero/Slide-1.svg" class="ls-bg" alt="hero bg">
          <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer" alt="shape"
             style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
             data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
@@ -25,7 +25,7 @@
 
       <!-- Slide 3-->
       <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
-         <img width="1920" height="890" src="../assets/img/hero/slide3.svg" class="" alt="">
+         <img width="1920" height="890" src="../assets/img/hero/slide3.svg" class="ls-bg" alt="hero bg">
          <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer" alt="shape"
             style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
             data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
@@ -76,7 +76,7 @@
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.3s">
                <div class="counter-style1">
                   <span class="counter-number h1">2500+</span>
-                  <p class="counter-text">kW<br> Installed</p>
+                  <p class="counter-text">kW<br>  Installed</p>
                </div>
             </div>
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.4s">
