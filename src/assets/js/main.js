@@ -46,11 +46,11 @@
   };
 
 
-  $(".search-btn").on("click", function() {
+  $(".search-btn").on("click", function () {
     $(".search-popup").addClass("active");
   });
 
-  $(".close-search").on("click", function() {
+  $(".close-search").on("click", function () {
     $(".search-popup").removeClass("active");
   })
 
@@ -190,7 +190,7 @@
   if ($('[data-bg-src]').length > 0) {
     $('[data-bg-src]').each(function () {
       var src = $(this).attr('data-bg-src');
-      console.log('Background image source:', src); 
+      console.log('Background image source:', src);
       $(this).css('background-image', 'url(' + src + ')');
       $(this).removeAttr('data-bg-src').addClass('background-image');
     });
@@ -244,7 +244,7 @@
       var currentActive = slider.slides.current.index; // After change Current Index
       var currentNav = '.ls-custom-dot[data-slide-go="' + currentActive + '"';
       $(currentNav).addClass('active')
-      .siblings().removeClass('active');
+        .siblings().removeClass('active');
     });
 
     vsHslide.layerSlider({
@@ -329,60 +329,60 @@
       nextArrow: (d('next-arrow') ? nextButton : '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>'),
       rtl: ($('html').attr('dir') == 'rtl') ? true : false,
       responsive: [{
-          breakpoint: 1600,
-          settings: {
-            arrows: (d('xl-arrows') ? true : false),
-            dots: (d('xl-dots') ? true : false),
-            slidesToShow: (d('xl-slide-show') ? d('xl-slide-show') : d('slide-show')),
-            centerMode: (d('xl-center-mode') ? true : false),
-            centerPadding: 0
-          }
-        }, {
-          breakpoint: 1400,
-          settings: {
-            arrows: (d('ml-arrows') ? true : false),
-            dots: (d('ml-dots') ? true : false),
-            slidesToShow: (d('ml-slide-show') ? d('ml-slide-show') : d('slide-show')),
-            centerMode: (d('ml-center-mode') ? true : false),
-            centerPadding: 0
-          }
-        }, {
-          breakpoint: 1200,
-          settings: {
-            arrows: (d('lg-arrows') ? true : false),
-            dots: (d('lg-dots') ? true : false),
-            slidesToShow: (d('lg-slide-show') ? d('lg-slide-show') : d('slide-show')),
-            centerMode: (d('lg-center-mode') ? d('lg-center-mode') : false),
-            centerPadding: 0
-          }
-        }, {
-          breakpoint: 992,
-          settings: {
-            arrows: (d('md-arrows') ? true : false),
-            dots: (d('md-dots') ? true : false),
-            slidesToShow: (d('md-slide-show') ? d('md-slide-show') : 1),
-            centerMode: (d('md-center-mode') ? d('md-center-mode') : false),
-            centerPadding: 0
-          }
-        }, {
-          breakpoint: 767,
-          settings: {
-            arrows: (d('sm-arrows') ? true : false),
-            dots: (d('sm-dots') ? true : false),
-            slidesToShow: (d('sm-slide-show') ? d('sm-slide-show') : 1),
-            centerMode: (d('sm-center-mode') ? d('sm-center-mode') : false),
-            centerPadding: 0
-          }
-        }, {
-          breakpoint: 576,
-          settings: {
-            arrows: (d('xs-arrows') ? true : false),
-            dots: (d('xs-dots') ? true : false),
-            slidesToShow: (d('xs-slide-show') ? d('xs-slide-show') : 1),
-            centerMode: (d('xs-center-mode') ? d('xs-center-mode') : false),
-            centerPadding: 0
-          }
+        breakpoint: 1600,
+        settings: {
+          arrows: (d('xl-arrows') ? true : false),
+          dots: (d('xl-dots') ? true : false),
+          slidesToShow: (d('xl-slide-show') ? d('xl-slide-show') : d('slide-show')),
+          centerMode: (d('xl-center-mode') ? true : false),
+          centerPadding: 0
         }
+      }, {
+        breakpoint: 1400,
+        settings: {
+          arrows: (d('ml-arrows') ? true : false),
+          dots: (d('ml-dots') ? true : false),
+          slidesToShow: (d('ml-slide-show') ? d('ml-slide-show') : d('slide-show')),
+          centerMode: (d('ml-center-mode') ? true : false),
+          centerPadding: 0
+        }
+      }, {
+        breakpoint: 1200,
+        settings: {
+          arrows: (d('lg-arrows') ? true : false),
+          dots: (d('lg-dots') ? true : false),
+          slidesToShow: (d('lg-slide-show') ? d('lg-slide-show') : d('slide-show')),
+          centerMode: (d('lg-center-mode') ? d('lg-center-mode') : false),
+          centerPadding: 0
+        }
+      }, {
+        breakpoint: 992,
+        settings: {
+          arrows: (d('md-arrows') ? true : false),
+          dots: (d('md-dots') ? true : false),
+          slidesToShow: (d('md-slide-show') ? d('md-slide-show') : 1),
+          centerMode: (d('md-center-mode') ? d('md-center-mode') : false),
+          centerPadding: 0
+        }
+      }, {
+        breakpoint: 767,
+        settings: {
+          arrows: (d('sm-arrows') ? true : false),
+          dots: (d('sm-dots') ? true : false),
+          slidesToShow: (d('sm-slide-show') ? d('sm-slide-show') : 1),
+          centerMode: (d('sm-center-mode') ? d('sm-center-mode') : false),
+          centerPadding: 0
+        }
+      }, {
+        breakpoint: 576,
+        settings: {
+          arrows: (d('xs-arrows') ? true : false),
+          dots: (d('xs-dots') ? true : false),
+          slidesToShow: (d('xs-slide-show') ? d('xs-slide-show') : 1),
+          centerMode: (d('xs-center-mode') ? d('xs-center-mode') : false),
+          centerPadding: 0
+        }
+      }
         // You can unslick at a given breakpoint now by adding:
         // settings: "unslick"
         // instead of a settings object
@@ -405,10 +405,10 @@
     valid = validateContact();
     if (valid) {
       jQuery.ajax({
-          url: $(form).attr('action'),
-          data: formData,
-          type: "POST"
-        })
+        url: $(form).attr('action'),
+        data: formData,
+        type: "POST"
+      })
         .done(function (response) {
           // Make sure that the formMessages div has the 'success' class.
           formMessages.removeClass('error');
@@ -640,28 +640,28 @@
   }
 
   //Header Search
-	if($('.search-btn').length) {
-		$('.search-btn').on('click', function() {
-			$('.main-header').addClass('moblie-search-active');
-		});
-		$('.close-search, .search-back-drop').on('click', function() {
-			$('.main-header').removeClass('moblie-search-active');
-		});
-	}
+  if ($('.search-btn').length) {
+    $('.search-btn').on('click', function () {
+      $('.main-header').addClass('moblie-search-active');
+    });
+    $('.close-search, .search-back-drop').on('click', function () {
+      $('.main-header').removeClass('moblie-search-active');
+    });
+  }
 
 
   /*----------- 16. Testimonial Nav  ----------*/
-  $('.testi-nav').each(function(){
+  $('.testi-nav').each(function () {
     var tabBtnIndex = 0;
     $(this).find('.tab-btn').each(function () {
       var btnCurrent = $(this);
       btnCurrent.attr('data-goto', tabBtnIndex)
       tabBtnIndex++;
-      btnCurrent.on('click', function(){
+      btnCurrent.on('click', function () {
         $('#testislide2').slick('slickGoTo', btnCurrent.data('goto'));
       })
     });
-  });  
+  });
   
   var testiSlide = $('#testislide2');
   testiSlide.on('init', function (event, slick, currentSlide) {
@@ -678,7 +678,7 @@
     var cur = $(slick.$slides[nextSlide]);
     var currentIndex = cur.data('slick-index');
     $(`.testi-nav .tab-btn[data-goto="${slick.$prevIndex}"]`).removeClass('prev');
-    $(`.testi-nav .tab-btn[data-goto="${slick.$nextIndex}"]`).removeClass('next'); 
+    $(`.testi-nav .tab-btn[data-goto="${slick.$nextIndex}"]`).removeClass('next');
     var prevIndex = cur.prev().data('slick-index');
     var nextIndex = cur.next().data('slick-index');
     $(`.testi-nav .tab-btn[data-goto="${nextIndex}"]`).addClass('next');
@@ -708,7 +708,7 @@
 
 
   /*----------- 17. Team Toggle ----------*/
-  $('.team-style1 .share-btn').on('click', function(){
+  $('.team-style1 .share-btn').on('click', function () {
     $(this).prev('.team-social').slideToggle();
     $(this).toggleClass('active');
     var siblingShareBtn = $(this).closest('.team-column').siblings().find('.team-style1 .share-btn.active');
@@ -734,241 +734,241 @@
     slidesToScroll: 1,
     slidesToShow: 1,
     arrows: false,
-    draggable:true,
+    draggable: true,
     dots: false
   }).slickAnimation();
 
 
-    $('.service-slider').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      arrows:true,
-      dots:false,
-      speed:1000,
-      prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-arrow-left"></i> Prev</button>',
-      nextArrow: '<button type="button" class="slick-next">Next <i class="fa fa-arrow-right"></i> </button>',
-      appendArrows: $('#slidenav2'),
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true
-          }
-          },
-        {
+  $('.service-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    speed: 1000,
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-arrow-left"></i> Prev</button>',
+    nextArrow: '<button type="button" class="slick-next">Next <i class="fa fa-arrow-right"></i> </button>',
+    appendArrows: $('#slidenav2'),
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
         breakpoint: 991,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true
         }
-        },
-        {
+      },
+      {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        }, 
-        {
+      },
+      {
         breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        },
-        {
+      },
+      {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
 
-    $('.blog-slider').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      arrows:true,
-      dots:false,
-      speed:1000,
-      prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-arrow-left"></i> Prev</button>',
-      nextArrow: '<button type="button" class="slick-next">Next <i class="fa fa-arrow-right"></i> </button>',
-      appendArrows: $('#slidenav1'),
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true
-          }
-          },
-        {
+  $('.blog-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    speed: 1000,
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-arrow-left"></i> Prev</button>',
+    nextArrow: '<button type="button" class="slick-next">Next <i class="fa fa-arrow-right"></i> </button>',
+    appendArrows: $('#slidenav1'),
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
         breakpoint: 991,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true
         }
-        },
-        {
+      },
+      {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        }, 
-        {
+      },
+      {
         breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        },
-        {
+      },
+      {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
 
-    $('.team-slider').slick({
-      infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      arrows:true,
-      dots:false,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true
-          }
-          },
-        {
+  $('.team-slider').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
         breakpoint: 991,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true
         }
-        },
-        {
+      },
+      {
         breakpoint: 767,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1
         }
-        }, 
-        {
+      },
+      {
         breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        },
-        {
+      },
+      {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
 
-      $('.project-slider').slick({
-      infinite: true,
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      arrows:false,
-      dots:false,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true
-          }
-          },
-        {
+  $('.project-slider').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
         breakpoint: 991,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true
         }
-        },
-        {
+      },
+      {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        }, 
-        {
+      },
+      {
         breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        },
-        {
+      },
+      {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
 
-    $('.testi-slider').slick({
-      autoplay: false,
-      slidesToScroll: 1,
-      slidesToShow: 1,
-      arrows: false,
-      dots: false,
-      fade:true,
-      asNavFor: '.testi-thumbs-slider',
-    });
+  $('.testi-slider').slick({
+    autoplay: false,
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    arrows: false,
+    dots: false,
+    fade: true,
+    asNavFor: '.testi-thumbs-slider',
+  });
     
-    $('.testi-thumbs-slider').slick({
-      autoplay: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.testi-slider',
-      dots: false,
-      vertical:true,
-      arrows:false,
-      focusOnSelect: true
-    });
+  $('.testi-thumbs-slider').slick({
+    autoplay: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.testi-slider',
+    dots: false,
+    vertical: true,
+    arrows: false,
+    focusOnSelect: true
+  });
 
 
 
-})(jQuery); 
+})(jQuery);
 

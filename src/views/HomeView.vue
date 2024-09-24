@@ -1,21 +1,79 @@
 <template>
-   <section class="">
-      <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive">
+   <!-- Carousel Start -->
+   <div class="container-fluid px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="../assets/img/hero/slide1.jpg" class="img-fluid" alt="First slide">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <!-- <h6 class="text-secondary h4 animated fadeInUp">Best IT Solutions</h6>
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight">An Innovative IT Solutions Agency
+                            </h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">Savycode Solutions Ltd. is a dynamic and
+                                forward-thinking company that specializes in a wide range of innovative services, catering
+                                to the ever-evolving digital landscape</p> -->
+                            <!-- <a href="" class="me-2"><button type="button"
+                                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read
+                                    More</button></a> -->
+                            <router-link to="/contact" class="ms-2"><button type="button"
+                                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact
+                                    Us</button></router-link>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/hero/Slide-1.svg" class="img-fluid" alt="Second slide">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <!-- <h6 class="text-secondary h4 animated fadeInUp">Best IT Solutions</h6>
+                            <h1 class="text-white display-1 mb-4 animated fadeInLeft">Quality Digital Services You Really
+                                Need!</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">With a dedicated team of experts, we are
+                                committed to delivering high-quality solutions to meet the diverse needs of our clients.</p> -->
+                            <!-- <a href="" class="me-2"><button type="button"
+                                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read
+                                    More</button></a> -->
+                            <a href="" class="ms-2"><button type="button"
+                                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact
+                                    Us</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+   <!-- <section class=""> -->
+      <!-- <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive"> -->
          <!-- Slide 1-->
-         <div class="ls-slide" data-ls="duration:12000;">
-            <img src="../assets/img/hero/slide1.jpg" class="ls-bg" alt="hero-bg">
+         <!-- <div class="ls-slide" data-ls="duration:12000;">
+            <img src="../assets/img/hero/slide1.jpg" class="ls-bg" alt="hero-bg"> -->
 
-            <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer"
+            <!-- <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer"
                alt="shape"
                style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
                data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
             <img width="369" height="629" src="../assets/img/hero/bulb.svg" class="ls-l ls-img-layer" alt="hero img"
                style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:130px; left:1121px;"
                data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
-         </div>
+         </div> -->
 
          <!-- Slide 2-->
-         <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
+         <!-- <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
             <img width="1920" height="890" src="../assets/img/hero/Slide-1.svg" class="ls-bg" alt="hero bg">
             <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer"
                alt="shape"
@@ -24,10 +82,10 @@
             <img width="370" height="412" src="../assets/img/hero/hero-1-0.svg" class="ls-l ls-img-layer" alt="hero bg"
                style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:155px; left:1116px; width:440px; height:490px;"
                data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
-         </div>
+         </div> -->
 
          <!-- Slide 3-->
-         <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
+         <!-- <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
             <img width="1920" height="890" src="../assets/img/hero/slide3.svg" class="ls-bg" alt="hero bg">
             <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer"
                alt="shape"
@@ -37,10 +95,10 @@
                style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:100px; left:1000px;"
                data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
          </div>
-      </div>
-   </section>
+      </div> -->
+   <!-- </section> -->
 
-   <section class="">
+   <!-- <section class="">
       <div class="container">
          <div class="row justify-content-center text-center">
             <div class="col-xl-9 wow fadeInUp" data-wow-delay="0.3s">
@@ -73,7 +131,7 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
 
    <div class=" space-bottom">
       <div class="container">
