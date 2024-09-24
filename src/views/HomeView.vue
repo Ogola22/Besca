@@ -471,7 +471,7 @@
             </div>
             <div class="col-xl-4">
                <div class="brand-style1">
-                  <img src="../assets/img/brand/Partner3.jpg" alt="brand">
+                  <img src="../assets/img/brand/Judiciary.PNG" alt="brand">
                </div>
             </div>
             <div class="col-xl-4">

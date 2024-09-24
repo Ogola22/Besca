@@ -20,7 +20,6 @@
                                 installations not only help combat climate change but also contribute to energy independence and the local 
                                 economy, especially in underserved areas where traditional power sources are limited.Our 
                                 commitment to sustainability ensures a brighter, greener future for generations to come. <span>#TransformingLives</span></p>
-                            
                             <div class="mt-30 mb-30">
                                 <img src="../assets/img/blog/transform.jpg" alt="blog thumb" class="w-100">
                             </div>                           

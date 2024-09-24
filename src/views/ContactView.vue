@@ -101,7 +101,7 @@
     <!--==============================
     FAQ Area  
     ==============================-->
-    <section class=" space-bottom">
+    <!-- <section class=" space-bottom">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-6 text-center wow fadeInUp" data-wow-delay="0.3s">
@@ -177,7 +177,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </template>
 
 <script>
