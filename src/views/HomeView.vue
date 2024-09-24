@@ -445,37 +445,37 @@
   ==============================-->
    <div class=" space-bottom">
       <div class="container">
-         <span class="sec-subtitle text-decoration-underline mb-4 pb-lg-3 text-center">Client and sponsor</span>
+         <span class="sec-subtitle text-decoration-underline mb-4 pb-lg-3 text-center">Our Partners</span>
          <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.4s" data-slide-show="5" data-lg-slide-show="4"
             data-md-slide-show="3" data-sm-slide-show="2">
             <div class="col-xl-4">
                <div class="brand-style1">
-                  <img src="../assets/img/brand/brand-1-1.png" alt="brand">
+                  <img src="../assets/img/brand/Partner1.jpg" alt="brand">
                </div>
             </div>
             <div class="col-xl-4">
                <div class="brand-style1">
-                  <img src="../assets/img/brand/brand-1-2.png" alt="brand">
+                  <img src="../assets/img/brand/Partner2.jpg" alt="brand">
                </div>
             </div>
             <div class="col-xl-4">
                <div class="brand-style1">
-                  <img src="../assets/img/brand/brand-1-3.png" alt="brand">
+                  <img src="../assets/img/brand/Partner5.jpg" alt="brand">
                </div>
             </div>
             <div class="col-xl-4">
                <div class="brand-style1">
-                  <img src="../assets/img/brand/brand-1-4.png" alt="brand">
+                  <img src="../assets/img/brand/Partner4.jpg" alt="brand">
                </div>
             </div>
             <div class="col-xl-4">
                <div class="brand-style1">
-                  <img src="../assets/img/brand/brand-1-5.png" alt="brand">
+                  <img src="../assets/img/brand/Partner3.jpg" alt="brand">
                </div>
             </div>
             <div class="col-xl-4">
                <div class="brand-style1">
-                  <img src="../assets/img/brand/brand-1-6.png" alt="brand">
+                  <img src="../assets/img/brand/Partner6.jpg" alt="brand">
                </div>
             </div>
          </div>
