@@ -1,39 +1,44 @@
 <template>
-   <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive">
-      <!-- Slide 1-->
-      <div class="ls-slide" data-ls="duration:12000;">
-         <img src="../assets/img/hero/slide1.jpg" class="ls-bg" alt="hero-bg">
-         
-          <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer" alt="shape"
-            style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
-            data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
-         <img width="369" height="629" src="../assets/img/hero/bulb.svg" class="ls-l ls-img-layer" alt="hero img"
-            style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:130px; left:1121px;"
-            data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
-      </div>
+   <section class="">
+      <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive">
+         <!-- Slide 1-->
+         <div class="ls-slide" data-ls="duration:12000;">
+            <img src="../assets/img/hero/slide1.jpg" class="ls-bg" alt="hero-bg">
 
-      <!-- Slide 2-->
-      <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
-         <img width="1920" height="890" src="../assets/img/hero/Slide-1.svg" class="ls-bg" alt="hero bg">
-         <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer" alt="shape"
-            style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
-            data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
-         <img width="370" height="412" src="../assets/img/hero/hero-1-0.svg" class="ls-l ls-img-layer" alt="hero bg"
-            style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:155px; left:1116px; width:440px; height:490px;"
-            data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
-      </div>
+            <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer"
+               alt="shape"
+               style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
+               data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
+            <img width="369" height="629" src="../assets/img/hero/bulb.svg" class="ls-l ls-img-layer" alt="hero img"
+               style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:130px; left:1121px;"
+               data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
+         </div>
 
-      <!-- Slide 3-->
-      <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
-         <img width="1920" height="890" src="../assets/img/hero/slide3.svg" class="ls-bg" alt="hero bg">
-         <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer" alt="shape"
-            style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
-            data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
-         <img width="631" height="631" src="../assets/img/hero/hero-3-0.svg" class="ls-l ls-img-layer" alt=""
-            style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:100px; left:1000px;"
-            data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
+         <!-- Slide 2-->
+         <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
+            <img width="1920" height="890" src="../assets/img/hero/Slide-1.svg" class="ls-bg" alt="hero bg">
+            <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer"
+               alt="shape"
+               style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
+               data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
+            <img width="370" height="412" src="../assets/img/hero/hero-1-0.svg" class="ls-l ls-img-layer" alt="hero bg"
+               style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:155px; left:1116px; width:440px; height:490px;"
+               data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
+         </div>
+
+         <!-- Slide 3-->
+         <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
+            <img width="1920" height="890" src="../assets/img/hero/slide3.svg" class="ls-bg" alt="hero bg">
+            <img width="691" height="680" src="../assets/img/hero/hero-shape-1-1.png" class="ls-l ls-img-layer"
+               alt="shape"
+               style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:105px; left:947px;"
+               data-ls="delayin:400; easingin:easeOutQuint; parallax:true; parallaxlevel:3;">
+            <img width="631" height="631" src="../assets/img/hero/hero-3-0.svg" class="ls-l ls-img-layer" alt=""
+               style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; top:100px; left:1000px;"
+               data-ls="delayin:200; easingin:easeOutQuint; parallax:true; parallaxlevel:6;">
+         </div>
       </div>
-   </div>
+   </section>
 
    <section class="">
       <div class="container">
@@ -76,7 +81,7 @@
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.3s">
                <div class="counter-style1">
                   <span class="counter-number h1">2500+</span>
-                  <p class="counter-text">kW<br>  Installed</p>
+                  <p class="counter-text">kW<br> Installed</p>
                </div>
             </div>
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.4s">
@@ -366,7 +371,8 @@
             <div class="col-xl-6">
                <div class="title-area">
                   <span class="sec-subtitle">OUR CASE STUDIES</span>
-                  <h2 class="sec-title h1">Over 100 Successful Installations in Public Schools</h2>
+                  <h2 class="sec-title h1">Over 100 Successful Installations in Public Schools, Health Centers and
+                     Markets</h2>
                </div>
             </div>
             <div class="col-auto align-self-center">
@@ -393,42 +399,39 @@
             </div>
             <div class="col-auto">
                <div class="project-style1 layout2">
-                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/proj-1-2.jpg"
-                           alt="project image"></a></div>
+                  <div class="project-img"><a href="project-details.html"><img
+                           src="../assets/img/project/Project-details.jpg" alt="project image"></a></div>
                   <div class="project-content">
-                     <span class="project-category">Windmill ENERGY</span>
-                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Battery Backup to
-                           an Existing</a></h3>
-                     <span class="project-energytotal h4">178,758 <span class="quantity">kWh</span></span>
-                     <p class="project-energytext">of clean energy per year</p>
+                     <span class="project-category">Off Grid Solar PV System</span>
+                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Battery
+                           Storage</a></h3>
                      <div class="shape-dotted"></div>
                   </div>
                </div>
             </div>
             <div class="col-auto">
                <div class="project-style1 layout2">
-                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/proj-1-4.jpg"
-                           alt="project image"></a></div>
+                  <div class="project-img"><a href="project-details.html"><img
+                           src="../assets/img/project/Project-detail-1.jpg" alt="project image"></a></div>
                   <div class="project-content">
-                     <span class="project-category">Battery ENERGY</span>
-                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Energy free and
-                           powerful supply chain set</a></h3>
-                     <span class="project-energytotal h4">120,569 <span class="quantity">kWh</span></span>
-                     <p class="project-energytext">of clean energy per year</p>
+                     <span class="project-category">Grid Tie System</span>
+                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Eldoret Waters and
+                           Sanitation Limited</a></h3>
+                     <span class="project-energytotal h4"><span class="quantity"></span></span>
+                     <p class="project-energytext">Clean Energy for Clean Water</p>
                      <div class="shape-dotted"></div>
                   </div>
                </div>
             </div>
             <div class="col-auto">
                <div class="project-style1 layout2">
-                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/proj-1-3.jpg"
+                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/Project-detail-2.jpg"
                            alt="project image"></a></div>
                   <div class="project-content">
-                     <span class="project-category">Fossil ENERGY</span>
-                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Energy free and
-                           healthy</a></h3>
-                     <span class="project-energytotal h4">350,000 <span class="quantity">kWh</span></span>
-                     <p class="project-energytext">of clean energy per year</p>
+                     <span class="project-category">Grid Tie System</span>
+                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Energy free and healthy</a></h3>
+                     <span class="project-energytotal h4"><span class="quantity"></span></span>
+                     <p class="project-energytext"></p>
                      <div class="shape-dotted"></div>
                   </div>
                </div>

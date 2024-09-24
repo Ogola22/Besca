@@ -4,7 +4,9 @@ import AboutView from '@/views/AboutView.vue';
 import ContactView from '@/views/ContactView.vue';
 import TransformingLivesView from '@/views/TransformingLivesView.vue';
 
-const routes = [
+const router = createRouter({
+history: createWebHistory(import.meta.env.BASE_URL),
+routes: [
   {
     path: '/',
     name: 'Home',
@@ -60,10 +62,6 @@ const routes = [
 //       component: () => import('@/views/TransformingLives.vue')
 //     },
 //   ];
-  const router = createRouter({
-    history: createWebHistory(), // This enables history mode
-    routes
+  
   })
-
-
 export default router
