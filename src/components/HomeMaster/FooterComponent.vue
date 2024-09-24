@@ -30,36 +30,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-4 col-xl-4">
-                        <div class="widget footer-widget">
-                            <div class="sidebar-gallery">
-                                <div class="gallery-thumb">
-                                    <img src="../../assets/img/service/Service-water-Pump.svg" alt="Gallery Image" class="w-100">
-                                    <a href="../../assets/img/service/Service-water-Pump.svg" class="popup-image gal-btn"><i class="far fa-search-plus"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="../../assets/img/service/Service-Backup.svg" alt="Gallery Image" class="w-100">
-                                    <a href="../../assets/img/service/Service-Backup.svg" class="popup-image gal-btn"><i class="far fa-search-plus"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="../../assets/img/hero/slide3.svg" alt="Gallery Image" class="w-100">
-                                    <a href="../../assets/img/hero/slide3.svg" class="popup-image gal-btn"><i class="far fa-search-plus"></i></a>
-                                </div> 
-                                <div class="gallery-thumb">
-                                    <img src="../../assets/img/hero/Slide-1.svg" alt="Gallery Image" class="w-100">
-                                    <a href="../../assets/img/hero/Slide-1.svg" class="popup-image gal-btn"><i class="far fa-search-plus"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="../../assets/img/hero/slide1.svg" alt="Gallery Image" class="w-100">
-                                    <a href="../../assets/img/hero/slide1.svg" class="popup-image gal-btn"><i class="far fa-search-plus"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="../../assets/img/service/Service-Streetlight.svg" alt="Gallery Image" class="w-100">
-                                    <a href="../../assets/img/service/Service-Streetlight.svg" class="popup-image gal-btn"><i class="far fa-search-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
+                    
                 </div>
             </div>
         </div>

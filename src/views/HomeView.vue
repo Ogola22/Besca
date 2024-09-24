@@ -81,7 +81,7 @@
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.3s">
                <div class="counter-style1">
                   <span class="counter-number h1">2500+</span>
-                  <p class="counter-text">kW<br> Installed</p>
+                  <p class="counter-text">kWp<br> Installed</p>
                </div>
             </div>
             <div class="col-md-4 col-lg-3 col-xxl-auto wow fadeInUp" data-wow-delay="0.4s">
@@ -425,11 +425,12 @@
             </div>
             <div class="col-auto">
                <div class="project-style1 layout2">
-                  <div class="project-img"><a href="project-details.html"><img src="../assets/img/project/Project-detail-2.jpg"
-                           alt="project image"></a></div>
+                  <div class="project-img"><a href="project-details.html"><img
+                           src="../assets/img/project/Project-detail-2.jpg" alt="project image"></a></div>
                   <div class="project-content">
                      <span class="project-category">Grid Tie System</span>
-                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Reducing Operational Costn</a></h3>
+                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Reducing
+                           Operational Costn</a></h3>
                      <span class="project-energytotal h4"><span class="quantity"></span></span>
                      <p class="project-energytext"></p>
                      <div class="shape-dotted"></div>
