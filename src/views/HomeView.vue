@@ -429,7 +429,7 @@
                            alt="project image"></a></div>
                   <div class="project-content">
                      <span class="project-category">Grid Tie System</span>
-                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Energy free and healthy</a></h3>
+                     <h3 class="project-title h4"><a href="project-details.html" class="text-inherit">Reducing Operational Costn</a></h3>
                      <span class="project-energytotal h4"><span class="quantity"></span></span>
                      <p class="project-energytext"></p>
                      <div class="shape-dotted"></div>
